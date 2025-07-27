@@ -1,0 +1,41 @@
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  background-color: hsl(212, 45%, 89%);
+  margin: 0;
+}
+
+
+.qr {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 8px 10px 10px #9b8e8e2e;
+}
+
+.qr .container {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    max-width: 300px;
+
+}
+
+.qr .container .imgqr img {
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 15px;
+    color: #777;
+    line-height: 1.6;
+}
+
+h3 {
+    font-size: 20px
+}
